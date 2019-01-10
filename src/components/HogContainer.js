@@ -4,6 +4,10 @@ import HogDetails from './HogDetails'
 import hogs from '../porkers_data'
 
 export default class HogContainer extends Component {
+  state = {
+     
+  }
+
   render() {
     return (
       <div className="hog-container ui grid container">
