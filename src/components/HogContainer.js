@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import HogList from './HogList'
+import HogDetails from './HogDetails'
+import hogs from '../porkers_data'
 
 export default class HogContainer extends Component {
   render() {
@@ -9,7 +11,7 @@ export default class HogContainer extends Component {
           <HogList />
         </div>
         <div className="ten wide column">
-          {/* HogDetails here */}
+          <HogDetails hogs={hogs} />
         </div>
       </div>
     );

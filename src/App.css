@@ -74,10 +74,10 @@ ul {
 
 
 .pigTile {
-  display: inline;
+  display: block;
   background-repeat: no-repeat;
   background-position: center 90%;
-  float: left;
+  /* float: left; */
   margin: 2%;
   padding: 1%;
   outline: #3B0B0B dotted thick;
