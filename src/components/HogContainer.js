@@ -9,7 +9,7 @@ export default class HogContainer extends Component {
           <HogList />
         </div>
         <div className="ten wide column">
-          // HogDetails here
+          {/* HogDetails here */}
         </div>
       </div>
     );
